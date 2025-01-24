@@ -6,18 +6,9 @@ import Result from './Result'
 
 // React routes 
 const router = createBrowserRouter([
-  {
-   path: '/',
-   element: <Main></Main>
-   },
-   {
-   path: '/quiz',
-   element: <Quiz></Quiz> 
-   },
-   {
-   path: '/result',
-   element: <Result></Result> 
-    }
+  {path: '/', element: <Main />},
+  {path: '/quiz', element: <Quiz/>},
+  {path: '/result', element: <Result/>}
 ])
 
 
